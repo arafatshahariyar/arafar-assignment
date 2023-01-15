@@ -1,0 +1,147 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: lavender;
+}
+
+.container{
+    padding: 50px 0px;
+}
+header{
+    background-color:papayawhip;
+}
+main, .banner-container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.header-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+.text-clr{
+color: gray;
+}
+.text-clr2{
+    color: rgb(31, 206, 230);
+}
+.header-head h1{
+   font-size: 35px;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+.header-text{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header-butn{
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    font-size: larger;
+}
+.header-butn:hover{
+    background-color: gray;
+    color: white;
+}
+/* that was header */
+
+.quick-list{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+align-items: center;
+}
+
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    }
+.quick-list-text{
+    margin-left: 30px;
+}
+.text-1{
+    color: gray;
+    font-size: 35px;
+}
+.text-2{
+    color: black;
+}
+.text-3{
+    color: rgb(31, 206, 230);
+}
+.text-4{
+color: grey;
+}
+/*  */
+.feature{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.feature-header h1{
+    border-left: 5px solid rgb(31, 206, 230);
+   font-size: 40px;
+   width: 400px;
+}
+.feature-text{
+   
+    box-shadow: 4px 5px 15px rgb(199, 238, 234);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px; 
+}
+.feature-butn{
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    font-size: larger;
+
+}
+.facts-text{
+    font-size: 35px;
+}
+.Icon{
+    display: flex;
+    justify-content: space-evenly;
+text-align: center;
+border-block: 10px; 
+}
+.icon-box{
+    box-shadow: 4px 5px 15px 5px rgb(199, 238, 234);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.sponsors-text{
+    text-align: center;
+}
+.sponsors-main-text{
+    font-size: 35px;
+}
+.sponsors-img{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    background-color: rgb(199, 238, 234);
+    color: rgb(1, 11, 12);
+    text-align: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+@media screen and (max-width:576) {
+
+ .container{
+    padding: 50px 0px;
+}
