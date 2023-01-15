@@ -145,3 +145,7 @@ border-block: 10px;
  .container{
     padding: 50px 0px;
 }
+.header-head{
+    align-items: center;
+
+}
